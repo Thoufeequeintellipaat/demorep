@@ -2,7 +2,17 @@
 <html>
 
   <head>
-    <title>   </title>
+    <title> SAMPLE  </title>
+    <script language="javascript">
+      function checkfields() {
+        var user = document.getElementById('username').value;
+        var pass = document.getElementById('password').value;
+        if (user == "" || pass == ""){
+          alert('Required Fields');
+      } else {
+        exit;
+      }
+    </script>
   </head>
   
   <body>
