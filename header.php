@@ -3,6 +3,16 @@
 
   <head>
     <title>   </title>
+    <script language="javascript">
+      var x = document.getElementById('user').value;
+      var y = document.getElementById('pass').value;
+      if(x == "" || y == ""){
+        alert('All fields are required');
+      } else {
+        alert('Logged In');
+      }
+      
+    </script>
   </head>
   
   <body>
