@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 
       <div class="primary-content">
         <div class="form-div">
@@ -9,3 +10,4 @@
         </div
       </div>
  
+<?php include('footer.php'); ?>
